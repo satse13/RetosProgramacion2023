@@ -25,6 +25,8 @@ def konami(key):
 		else:
 			keyStep = 0
 
+		# Se considera que despues de hacer tres veces hacia arriba estaras en el paso 1, no en el 2
+
 		if keyStep == len(KONAMI_CODE):
 				print("COMPLETADO CODIGO KONAMI")
 				return False
